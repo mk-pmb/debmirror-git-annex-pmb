@@ -1,0 +1,30 @@
+{ "name": "debmirror-git-annex-pmb",
+  "version": "0.0.1",
+  "description": "Yet another tool for mirroring APT repositories. This one integrates with git-annex to help you track changes.",
+  "keywords": [
+    "apt",
+    "deb",
+    "mirror"
+  ],
+
+  "author": "M.K. (https://github.com/mk-pmb)",
+  "homepage": "https://github.com/mk-pmb/debmirror-git-annex-pmb/#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mk-pmb/debmirror-git-annex-pmb.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mk-pmb/debmirror-git-annex-pmb/issues"
+  },
+  "contributors": [],
+
+  "private": true, "license": "ISC",
+
+  "scripts": { "test": "elp && nodemjs test/all.mjs" },
+  "directories": { "test": "test" },
+  "eslintConfig": { "extends": "nodejs-pmb" },
+
+
+
+  "npm vs. BOM = Unexpected token": "-*- coding: UTF-8 -*-"
+}
